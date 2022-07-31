@@ -3,7 +3,7 @@ import org.junit.jupiter.api.*;
 public class FirstTest {
     @Test
     void firstTest() {
-        Assertions.assertTrue(3 >= 2);
+        Assertions.assertTrue(3 > 2);
     }
 
     @Test
