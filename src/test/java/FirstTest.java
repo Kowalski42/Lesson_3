@@ -3,7 +3,12 @@ import org.junit.jupiter.api.*;
 public class FirstTest {
     @Test
     void firstTest() {
-        Assertions.assertTrue(3 >= 2);
+        boolean x = false;
+        for (int i = 0; i < 2; i++) {
+            x = true;
+        }
+        //noinspection ReassignedVariable
+        Assertions.assertNotEquals(x, false);
     }
 
     @Test
