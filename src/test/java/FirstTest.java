@@ -10,4 +10,9 @@ public class FirstTest {
     void secondTest() {
         Assertions.assertFalse(3 == 1);
     }
+
+    @Test
+    void thirdTest() {
+        Assertions.assertEquals(10, 1000/100);
+    }
 }
